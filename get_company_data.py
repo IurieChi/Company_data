@@ -5,6 +5,23 @@ import json
 
 
 def get_data_company(cui):
+    """_summary_
+
+    Args:
+        cui (string): company unic ID 
+    Returns:
+        JSON: company details like{
+                                    'cui': ,
+                                    'denumire': ,
+                                    'cod_inmatriculare': ,
+                                    'euid': ,
+                                    'adresa_completa': ,
+                                    'localitate': ,
+                                    'judet': ,
+                                    'sector': ,
+                                    'cod_stare': ,
+                                    'stare': }
+    """
     url = f"http://zimbor.go.ro:8985/solr/firme/select?indent=true&q=cui%3A%22{cui}%22"
 
     #use session to create one rrequest and extract all data.
