@@ -1,4 +1,4 @@
 .DS_Store
 /venv
+__pycache__
 licence_pysimle_gui.py
-gui.py
