@@ -1,5 +1,17 @@
 # contract_creator
-This application extract automatically Romanian company details and fill it in the template (contract file )
+This application extract automatically Romanian company details and fill it in the template (contract file)
+
+To run this project you need to create virtual enviroment and install requirements.txt 
+
+1.Create virtual enviroment:
+    python3 -m venv venv —— setup virtual environment
+
+2.Activate environment
+    source venv/bin/activate —— activate environment
+
+3. Install requirements.txt using terminal 
+    pip3 install -r requirements.txt
+
 
 
 Comnay detail: required to fill company data for new contract for cooperation.
