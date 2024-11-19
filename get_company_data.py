@@ -22,9 +22,9 @@ def get_data_company(cui):
                                     'cod_stare': ,
                                     'stare': }
     """
-    url = f"http://zimbor.go.ro:8985/solr/firme/select?q.op=OR&q=cui%3A%22{cui}%22"
+    url = f"http://zimbor.go.ro/solr/firme/select?q.op=OR&q=cui%3A%22{cui}%22"
 
-    #use session to create one rrequest and extract all data.
+    #use session to create one request and extract all data.
     session = requests.Session()    
     response = session.get(url, headers = headers.defoult_headers)
 
